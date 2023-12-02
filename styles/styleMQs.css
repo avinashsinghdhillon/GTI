@@ -1,0 +1,79 @@
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prev {
+        left: 0;
+    }
+
+    #navCoName {
+        display: block;
+    }
+
+    #introText p {
+        margin: 25px 10px;
+    }
+
+    #cardHolder {
+        margin: 70px 0;
+    }
+
+    .careerInfo {
+        margin: 25px;
+    }
+
+    #downloadButContainer {
+        margin-top: 50px;
+    }
+}
+
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+    body {
+        background: url("../assets/images/BodyBkGd_1.jpg") var(--secondary);
+        animation: animatedBackground 20s linear infinite alternate;
+        font-size: 17px;
+    }
+
+    #wrapper {
+        max-width: 80%;
+        margin: auto;
+        opacity: .9;
+    }
+
+    #navCoName {
+        display: block;
+    }
+}
+
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    #wrapper {
+        max-width: 80%;
+    }
+
+    #navCoName {
+        display: block;
+    }
+
+    #cardHolder {
+        margin: 50px 0;
+    }
+}
+
+/* background animation */
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 10% 0%;
+    }
+}
