@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTI Logistics Services Inc.</title>
+    <title>GTI Logistics Services</title>
     <link rel="icon" href="./assets/images/favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styleMain.css">
@@ -13,35 +13,119 @@
     <div id="wrapper">
         <div id="content">
             <nav>
-                <p id="navCoName">GTI Logistics Services Inc.</p>
+                <a href="./index.html"><img id="navLogo" src="assets/images/GTI_Main_Logo.jpg" alt="GTI" /></a>
+                <p id="navCoName">GTI Logistics Services</p>
             </nav>
 
+            <section id="banner">
+                <div class="slide">
+                    <img src="assets/images/Banner_1.jpg" alt="GTI-Fleet" />
+                </div>
+                <!-- <div class="slide">
+                    <img src="assets/images/Banner_2.jpg" alt="GTI-Fleet" />
+                </div> -->
+                <div class="slide">
+                    <img src="assets/images/Banner_3.jpg" alt="GTI-Fleet" />
+                </div>
+                <div class="slide">
+                    <img src="assets/images/Banner_4.jpg" alt="GTI-Fleet" />
+                </div>
+                <div class="slide">
+                    <img src="assets/images/Banner_5.jpg" alt="GTI-Fleet" />
+                </div>
+                <!-- The naviagation buttons -->
+                <a class="prev" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </section>
+
             <section id="introText">
-                <div class="underConsText">
+                <div>
                     <p>
-                        Good things coming soon!!!
+                        GTI Logistics services is a freight broker dedicated to providing the best transportation service to our customers. 
+                        We are aligned with multiple dedicated fleets with experienced drivers and new equipment to reliably deliver your shipments when and how you need them.
+                        GTI can meet any transportation need by offering full load freight services throughout the continental United States and Canada.
                     </p>
+                </div>
+                <div>
+                    <p>
+                        Our headquarters is located in 
+                        <a class="inlineLinks" href="https://goo.gl/maps/ZmnTSNR75dipJsMU8" target="_blank" >
+                            Elk Grove, CA
+                        </a>.
+                    </p>
+                    <div id="contactInfoContainer">
+                        <div id="contactSubContainer">
+                            <p class="contactHeader">
+                                <span class="material-icons">
+                                    share_location
+                                </span>
+                                &nbspAddress
+                            </p>
+                            <p class="contactInfo">
+                                P O Box 1324
+                            </p>
+                            <p class="contactInfo">
+                                Elk Grove, CA 95759
+                            </p>
+                            <p class="contactHeader">
+                                <span class="material-icons">
+                                    phone
+                                </span>
+                                &nbspPhone
+                            </p>
+                            <p class="contactInfo">
+                                (916) 385-3626
+                            </p>
+                            <p class="contactHeader">
+                                <span class="material-icons">
+                                    email
+                                </span>
+                                &nbspEmail
+                            </p>
+                            <p class="contactInfo">
+                                gtilogisticsservices@gmail.com
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="cardHolder">
                 <div class="card rotateRight" >
-                    <a href="./careers.html">
-                        <img class="cardImg" src="https://media.giphy.com/media/xUOxf7BGcnKPNCA5kQ/giphy.gif"/>
-                        <!-- <img class="cardImg" src="assets/images/Solo_5.jpg"/> -->
-                        <p class="cardText">GTI</p>
-                    </a>
+                    <img class="cardImg" src="https://media.giphy.com/media/xUOxf7BGcnKPNCA5kQ/giphy.gif"/>
+                    <p class="cardText">GTI</p>
                 </div>
                 <div class="card rotateLeft">
-                    <a href="./quote.html">
-                        <img class="cardImg" src="https://media.giphy.com/media/3o6YgnyP8EtTURFXjO/giphy.gif"/>
-                        <!-- <img class="cardImg" src="assets/images/Freight.jpg"/> -->
-                        <p class="cardText">GTI</p>
-                    </a>
+                    <img class="cardImg" src="https://media.giphy.com/media/3o6YgnyP8EtTURFXjO/giphy.gif"/>
+                    <p class="cardText">GTI</p>
                 </div>
             </section>
         </div>
         
+        <footer>
+            <div class="footerLinks">
+                <ul>
+                    <li>
+                        <a href="https://www.fmcsa.dot.gov/" target="_blank" >
+                            <img id="fmcsaLogo" src="assets/images/FmcsaPic.png">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="https://ww2.arb.ca.gov/" target="_blank" >
+                            <img id="carbLogo" src="assets/images/CarbPic2.png">
+                        </a> 
+                    </li>
+                    <!-- <li>
+                        <a href="https://www.epa.gov/smartway" target="_blank" >
+                            <img id="smartwayLogo" src="assets/images/SmartwayPic.jpg">
+                        </a> 
+                    </li> -->
+                </ul>
+            </div>
+            <div>
+                <p class="copyright">&copy; 2024 GTI Logistics Services</p>
+            </div>
+        </footer>
         <script src="javascript/slides.js"></script>
     </div>
 </body>
